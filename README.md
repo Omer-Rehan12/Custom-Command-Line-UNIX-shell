@@ -1,109 +1,112 @@
 Custom Unix Shell
 
-  A custom Unix/Linux command-line shell developed in C that replicates core functionalities of a traditional terminal environment.
-  The project demonstrates concepts of operating systems, process management, and inter-process communication.
+A custom Unix/Linux command-line shell developed in C that replicates core functionalities of a traditional terminal environment.
+The project demonstrates concepts of operating systems, process management, and inter-process communication.
+
 
 Features
 
-  Execute basic Unix commands
+
+  .Execute basic Unix commands
 
 
-  Support for multiple commands using pipes (|)
+  .Support for multiple commands using pipes (|)
 
 
-  Input and output redirection (<, >)
+  .Input and output redirection (<, >)
 
 
-  Parent and child process handling using fork()
+  .Parent and child process handling using fork()
 
 
-  Command execution using execvp()
+  .Command execution using execvp()
 
 
-  Process synchronization with wait()
+  .Process synchronization with wait()
 
 
-  Custom shell prompt and interactive terminal behavior
+  .Custom shell prompt and interactive terminal behavior
 
 
-  Error handling for invalid commands
+  .Error handling for invalid commands
+
 
 
 
 Tech Stack
 
 
-  C Programming
+  .C Programming
 
 
-  Linux/Unix System Calls
+  .Linux/Unix System Calls
 
 
-  GCC Compiler
+  .GCC Compiler
 
 
 
 Concepts Implemented
 
 
-  Process Creation and Management
+  .Process Creation and Management
 
 
-  Inter-Process Communication (Pipes)
+  .Inter-Process Communication (Pipes)
 
 
-  File Descriptors
+  .File Descriptors
 
 
-  Input/Output Redirection
+  .Input/Output Redirection
 
 
-  System Calls in Unix/Linux
+  .System Calls in Unix/Linux
 
 
-  Command Parsing and Tokenization
+  .Command Parsing and Tokenization
 
 
 
 How to Run
 
 
-  Compile
+  .Compile
   
   
-  gcc shell.c shell_functions.c -o myshell
+ .gcc shell.c shell_functions.c -o myshell
   
  
-  Execute
+  .Execute
   
   
-  ./myshell
+  ../myshell
 
 
 
 Example Commands
 
 
-  lspwdcat file.txtls | wc
+  .lspwdcat file.txtls | wc
 
   
-  sort < input.txt
+  .sort < input.txt
 
   
-  echo Hello > output.txt
+  .echo Hello > output.txt
 
 
 
 What I Learned
 
 
-  Working with low-level system programming
+  .Working with low-level system programming
 
 
-  Understanding how Unix shells operate internally
+  .Understanding how Unix shells operate internally
 
 
-  Managing processes and file descriptors
+  .Managing processes and file descriptors
 
 
-  Building interactive command-line applications
+  .Building interactive command-line applications
